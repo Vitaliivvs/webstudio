@@ -1,0 +1,54 @@
+.blue {
+    color: 2196F3;
+}
+
+.web {
+    color: rgb(33, 150, 243);
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    background-color: rgb(33, 150, 243);
+    color: rgb(255, 255, 255);
+}
+
+
+.hi {
+    color: rgb(33, 33, 33);
+}
+.he {
+    color: rgb(117, 117, 117);
+}
+.whi {
+   
+    color: rgb(255, 255, 255);
+}
+.bat {
+    background-color: rgb(47, 48, 58);
+}
+.imag {
+    width: 370px;
+    height: 294px;
+}
+.men {
+    width: 270px;
+    height: 260px;
+}
+h4 {
+    color: rgb (33, 33, 33)
+}
+p {
+    color: rgb(117, 117, 117);
+}
+h2 {
+    color: rgb(33, 33, 33);
+}
+.end {
+    color: rgb(117, 117, 117);
+}
+.the {
+    color: rgb(255, 255, 255);
+}
