@@ -1,54 +1,166 @@
-.blue {
-    color: 2196F3;
+:root {
+  --nav-text: rgb(33, 33, 33);
+  --nav-background-color: rgb(33, 150, 243);
+  --nav-letter: rgb(117, 117, 117);
+  --nav-last: rgb(255, 255, 255);
 }
 
+.blue {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--nav-background-color);
+  color: var(--nav-last);
+  width: 200px;
+  height: 47px;
+}
+.blue:hover {
+  width: 216px;
+  height: 50px;
+}
+.blue:focus {
+  width: 216px;
+  height: 50px;
+}
+.web3 {
+  color: var(--nav-text);
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 3%;
+  text-align: left;
+}
 .web {
-    color: rgb(33, 150, 243);
+  color: var(--nav-background-color);
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 3%;
+  text-align: left;
+}
+.web2 {
+  color: var(--nav-last);
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 3%;
+  text-align: left;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
-
-button {
-    background-color: rgb(33, 150, 243);
-    color: rgb(255, 255, 255);
+.hi:hover {
+  color: var(--nav-background-color);
 }
-
-
+.hi:focus {
+  color: var(--nav-background-color);
+}
+.card1 {
+}
+.card2 {
+}
+.card3 {
+}
+.card4 {
+}
 .hi {
-    color: rgb(33, 33, 33);
+  color: var(--nav-text);
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 2%;
+  text-align: left;
+}
+.he:hover {
+  color: var(--nav-background-color);
 }
 .he {
-    color: rgb(117, 117, 117);
+  color: var(--nav-letter);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+
+  text-align: left;
+}
+.he:focus {
+  color: var(--nav-background-color);
+}
+ul {
+  list-style-type: none;
 }
 .whi {
-   
-    color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  color: var(--nav-last);
+  font-size: 44px;
+  width: 696px;
+  font-weight: 900;
+  line-height: 60px;
+  text-transform: uppercase;
+}
+.whi2 {
+  font-family: "Roboto", sans-serif;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+
+  text-align: left;
 }
 .bat {
-    background-color: rgb(47, 48, 58);
+  background-color: rgb(47, 48, 58);
+  text-align: center;
 }
-.imag {
-    width: 370px;
-    height: 294px;
+.bat2 {
+  background-color: rgb(47, 48, 58);
+  text-align: left;
+}
+.imag1 {
+  width: 370px;
+  height: 294px;
 }
 .men {
     width: 270px;
     height: 260px;
 }
-h4 {
-    color: rgb (33, 33, 33)
+.black {
+  color: var(--nav-text);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: left;
+  text-transform: uppercase;
 }
-p {
-    color: rgb(117, 117, 117);
+.para {
+  color: var(--nav-letter);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
 }
-h2 {
-    color: rgb(33, 33, 33);
+.hhh2 {
+  color: var(--nav-text);
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 42px;
+  text-align: center;
 }
 .end {
-    color: rgb(117, 117, 117);
+  color: var(--nav-letter);
 }
 .the {
-    color: rgb(255, 255, 255);
+  color: var(--nav-last);
+}
+
+.h3 {
+}
+
+h2 {
+  color: var(--nav-text);
+  font-family: "Roboto", sans-serif;
 }
